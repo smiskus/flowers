@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+head {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: 1px dashed white;
+    width: 75%;
+}
+
+#clue7 {
+    visibility: visible;
+}
+
+#clue8 {
+    visibility: visible;
+    font-style: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+}
+
+#incorrectPath {
+    visibility: hidden;
+}
+
+a {
+    color: white;
+    font-style: none;
+}
+
+#nextClue {
+    visibility: hidden;
+}
+
+#location {
+    font-size: 40px;
+    display: none;
+}
+
+#incorrect {
+    visibility: hidden;
+}
+
+#code {
+    border-radius: 5px;
+    background-color: rgb(171, 191, 194);
+    padding: 5px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bolder;
+    width: 50px;
+}
+
+#reset {
+    border-radius: 5px;
+    background-color: rgb(171, 191, 194);
+    padding: 5px;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bolder;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+#submitCode {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    padding: 5px;
+}

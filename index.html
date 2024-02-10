@@ -1,12 +1,36 @@
-<html>
-    <header>
-        Welcome
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <h1>
+            ⋆·˚ ༘ *❁ Flowers ❁⋆·˚ ༘ *
+        </h1>
+        <hr />
+    </head>
     <body>
-        <div>
-            Insert flowers here
+        <div id="clue7">
+            <h2>Clue #7</h2>
+            <div>
+                How well do you know me? <br>
+                Let's put to the test <br>
+                Use the arrow keys <br>
+                And pick the path I like best <br>
+            </div>
+            <br>
+            <div id="canvas"></div>
+            <br>
+            <button id="reset">Reset</button>
+            <br>
+            <div id="incorrectPath">
+                Incorrect path!             
+            </div>
+            <div id="nextClue">
+                <a href="./finalclue/">Clue 8</a>
+            </div>
         </div>
-        <script src="/scripts/test.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="/scripts/grid.js"></script>
+        <script src="/scripts/clue7.js"></script>
     </body>
-
 </html>
